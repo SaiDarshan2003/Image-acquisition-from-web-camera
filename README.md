@@ -73,7 +73,7 @@ while(True):
     image[Height//2:,Width//2:]=smaller_frame
     cv2.imshow("Frame",image)
     if cv2.waitKey(1)==ord('q'):
-        breakq
+        break
 Capture.release()
 cv2.destroyAllWindows()
 
