@@ -12,6 +12,7 @@ iv) Rotate and display the video
 ```
 ## Software Used
 Anaconda - Python 3.7
+
 ## Algorithm
 ### Step 1:
 Import Opencv and numpy(selective programs).
@@ -23,11 +24,15 @@ Using read(),you can read the given inpiut through webcam.
 Using get() or shape() we can divide the screens into many parts.
 ### Step 5:
 End the Program.
+
 ## Program:
-``` Python
+```
+Python
 ### Developed By:Sai Darshan G
 ### Register No:212221240047
+
 ## i) Write the frame as JPG file
+
 import cv2
 Capture=cv2.VideoCapture(0)
 while(True):
@@ -38,7 +43,9 @@ while(True):
         break
 Capture.release()q
 cv2.destroyAllWindows()
+
 ## ii) Display the video
+
 import cv2
 Capture=cv2.VideoCapture(0)
 while(True):
@@ -46,9 +53,11 @@ while(True):
     cv2.imshow("Frame",Frame)
     if cv2.waitKey(1)==ord('q'):
         break
-Capture.release()q
-cv2.destroyAllWindows()q
+Capture.release()
+cv2.destroyAllWindows()
+
 ## iii) Display the video by resizing the window
+
 import numpy as np
 import cv2
 Capture=cv2.VideoCapture(0)
@@ -64,10 +73,12 @@ while(True):
     image[Height//2:,Width//2:]=smaller_frame
     cv2.imshow("Frame",image)
     if cv2.waitKey(1)==ord('q'):
-        breakq
+        break
 Capture.release()
 cv2.destroyAllWindows()
+
 ## iv) Rotate and display the video
+
 import numpy as np
 import cv2
 Capture=cv2.VideoCapture(0)
