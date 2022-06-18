@@ -1,19 +1,19 @@
-# Image-Acquisition-from-Web-Camera
-## Aim
- 
-Aim:
- 
-To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
-```
-i) Write the frame as JPG 
-ii) Display the video 
-iii) Display the video by resizing the window
-iv) Rotate and display the video
-```
-## Software Used
-Anaconda - Python 3.7
+<H1 align="center">Image Acquisition from Web Camera</h1>
 
-## Algorithm
+## Aim:
+To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+<br>
+i) Write the frame as JPG 
+<br>
+ii) Display the video 
+<br>
+iii) Display the video by resizing the window.
+<br>
+iv) Rotate and display the video
+
+## Software Used:
+Anaconda - Python 3.7
+## Algorithm:
 ### Step 1:
 Import Opencv and numpy(selective programs).
 ### Step 2:
@@ -27,12 +27,9 @@ End the Program.
 
 ## Program:
 ```
-Python
-### Developed By:Sai Darshan G
-### Register No:212221240047
-
-## i) Write the frame as JPG file
-
+Developed By:Sai Darshan
+Register No:212221240047
+i) Write the frame as JPG file
 import cv2
 Capture=cv2.VideoCapture(0)
 while(True):
@@ -44,8 +41,7 @@ while(True):
 Capture.release()q
 cv2.destroyAllWindows()
 
-## ii) Display the video
-
+ii) Display the video
 import cv2
 Capture=cv2.VideoCapture(0)
 while(True):
@@ -56,8 +52,7 @@ while(True):
 Capture.release()
 cv2.destroyAllWindows()
 
-## iii) Display the video by resizing the window
-
+iii) Display the video by resizing the window
 import numpy as np
 import cv2
 Capture=cv2.VideoCapture(0)
@@ -77,8 +72,7 @@ while(True):
 Capture.release()
 cv2.destroyAllWindows()
 
-## iv) Rotate and display the video
-
+iv) Rotate and display the video
 import numpy as np
 import cv2
 Capture=cv2.VideoCapture(0)
@@ -100,12 +94,13 @@ cv2.destroyAllWindows()
 ```
 ## Output:
 ### i) Write the frame as JPG image
-![inp](1.jpeg)
+![inp](1.png)
 ### ii) Display the video
-![inp](2.jpeg)
+![inp](2.png)
 ### iii) Display the video by resizing the window
-![inp](3.jpeg)
+![inp](3.png)
 ### iv) Rotate and display the video
-![inp](4.jpeg)
+![inp](4.png)
+
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
