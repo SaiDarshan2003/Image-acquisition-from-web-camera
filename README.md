@@ -93,13 +93,20 @@ Capture.release()
 cv2.destroyAllWindows()
 ```
 ## Output:
-### i) Write the frame as JPG image
+i) Write the frame as JPG image 
+
 ![inp](1.png)
-### ii) Display the video
+
+ii) Display the video
+
 ![inp](2.png)
-### iii) Display the video by resizing the window
+
+iii) Display the video by resizing the window  
+
 ![inp](3.png)
-### iv) Rotate and display the video
+
+iv) Rotate and display the video
+
 ![inp](4.png)
 
 ## Result:
